@@ -2,7 +2,7 @@ var express = require('express');
 
 var App = express();
 
-var port = process.env.PORT || 3000;
+var port = process.env.port || 3000;
 
 App.use('/node_modules', express.static(__dirname + '/node_modules'));
 App.use(express.static(__dirname + '/build'));
