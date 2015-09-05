@@ -1,5 +1,6 @@
 {
   "name": "GulpTypescriptTest",
+  "engines":{"node": "0.12.7"},
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
