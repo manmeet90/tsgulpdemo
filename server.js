@@ -9,7 +9,9 @@ App.use(express.static(__dirname + '/build'));
 App.use(express.static(__dirname));
 
 App.get('/', function(req, res){
-	res.sendFile(__dirname + "/index.html");
+	// res.sendFile(__dirname + "/index.html");
+	res.send("Hello World!");
+	// res.end();
 });
 
 App.listen(port, function(){
