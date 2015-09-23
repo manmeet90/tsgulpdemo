@@ -2,7 +2,7 @@
   "name": "GulpTypescriptTest",
   "engines":{"node": "0.12.6"},
   "version": "1.0.0",
-  "description": "",
+  "description": "Gulp Typescript Intergration Project",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
