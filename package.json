@@ -9,7 +9,7 @@
     "start" : "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Manmeet Gupta",
   "license": "ISC",
   "dependencies": {
     "gulp": "^3.9.0",
